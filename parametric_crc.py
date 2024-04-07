@@ -127,7 +127,7 @@ width=8 poly=0x31 init=0xff refin=false refout=false xorout=0x00 check=0xf7 resi
 width=8 poly=0x2f init=0x00 refin=false refout=false xorout=0x00 check=0x3e residue=0x00 name="CRC-8/OPENSAFETY"
 width=8 poly=0x07 init=0xff refin=true refout=true xorout=0x00 check=0xd0 residue=0x00 name="CRC-8/ROHC"
 width=8 poly=0x1d init=0xff refin=false refout=false xorout=0xff check=0x4b residue=0xc4 name="CRC-8/SAE-J1850"
-width=8 poly=0x07 init=0x00 refin=false refout=false xorout=0x00 check=0xf4 residue=0x00 name="CRC-8/SMBUS"
+width=8 poly=0x07 init=0x00 refin=false refout=false xorout=0x00 check=0xf4 residue=0x00 name="CRC-8/SMBUS" alias="CRC-8"
 width=8 poly=0x1d init=0xff refin=true refout=true xorout=0x00 check=0x97 residue=0x00 name="CRC-8/TECH-3250" alias="CRC-8/AES,CRC-8/EBU"
 width=8 poly=0x9b init=0x00 refin=true refout=true xorout=0x00 check=0x25 residue=0x00 name="CRC-8/WCDMA"
 width=10 poly=0x233 init=0x000 refin=false refout=false xorout=0x000 check=0x199 residue=0x000 name="CRC-10/ATM" alias="CRC-10,CRC-10/I-610"
